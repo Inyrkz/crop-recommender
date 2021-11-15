@@ -5,11 +5,11 @@ from wtforms.validators import DataRequired
 
 class SoilParameters(FlaskForm):
     '''Form to input the soil parameters'''
-    nitrogen = IntegerField('nitrogen', validators=[DataRequired()])
-    phosphorous = IntegerField('phosphorous', validators=[DataRequired()])
-    potassium = IntegerField('potassium', validators=[DataRequired()])
-    temperature = FloatField('temperature', validators=[DataRequired()])
-    humidity = FloatField('humidity', validators=[DataRequired()])
+    nitrogen = IntegerField('Nitrogen', validators=[DataRequired()])
+    phosphorous = IntegerField('Phosphorous', validators=[DataRequired()])
+    potassium = IntegerField('Potassium', validators=[DataRequired()])
+    temperature = FloatField('Temperature', validators=[DataRequired()])
+    humidity = FloatField('Humidity', validators=[DataRequired()])
     pH = FloatField('pH', validators=[DataRequired()])
-    rainfall = FloatField('rainfall', validators=[DataRequired()])
-    send = SubmitField('send')
+    rainfall = FloatField('Rainfall', validators=[DataRequired()])
+    send = SubmitField('Check')

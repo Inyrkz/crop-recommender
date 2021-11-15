@@ -10,6 +10,24 @@ body{
     padding: 0;
         }
 
+.background-image{
+    background-image: url('background_1.jpg');
+    background-color: paleturquoise;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+
+.result-background{
+    background-image: url('background_2.jpg');
+    background-color: paleturquoise;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }    
+
  #login-form-container{
     position: absolute;
     width: 100%;

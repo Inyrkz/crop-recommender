@@ -12,7 +12,8 @@ body{
 
 .background-image{
     background-image: url('background_1.jpg');
-    background-color: paleturquoise;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +22,8 @@ body{
 
 .result-background{
     background-image: url('background_2.jpg');
-    background-color: paleturquoise;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

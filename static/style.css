@@ -45,3 +45,9 @@ label{
     width: 150px;
     vertical-align: top;
     }
+   
+.has-text-centered{
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+    }

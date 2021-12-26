@@ -10,7 +10,7 @@ This file is the machine learning model created from the Random Forest classifie
 The `app.py` file contains code for the Flask web application for the project. The `templates` folder contains the HTML files.
 The  `static` folder contains the CSS file and background images.
 
-
+### Running Web Application Locally
 To run the app locally, you'll have to first clone this repo.
 After cloning the repo, open the code using Visual Studio Code or any code editor of your choice.
 You will need to create a virtual environment. First, install a `virtualenv`. It is an environment manager in Python. It will let you create virtual environments.

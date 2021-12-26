@@ -47,5 +47,5 @@ python app.py
 ```
 
 Once the code runs, you'll have to open your web browser and go to the URL shown in your terminal. 
-For example, the URL could be `http://127.0.0.1`
+For example, the URL could be ` http://127.0.0.1:5000/`
 

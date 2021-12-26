@@ -1,16 +1,5 @@
 # crop-recommender
 
-This is a crop recommendation system that predicts the best crop to plant in a farm based on the soil parameters.
-
-The `crop_recommender.ipynb` file is the Jupyter notebook for training several machine learning algorithms to perform crop recommendation.
-It can be opened using Jupyter Notebook IDE or Visual Studio Code. 
-Running the last cells after running previous cells will create the `crop_recommender_model.sav` file.
-This file is the machine learning model created from the Random Forest classifier.
-
-The `app.py` file contains code for the Flask web application for the project. The `templates` folder contains the HTML files.
-The  `static` folder contains the CSS file and background images.
-
-### Running Web Application Locally
 1. To run the app locally, you'll have to first clone this repo.
 2. After cloning the repo, open the code using `Visual Studio Code` or any code editor of your choice.
 3. You will need to create a virtual environment. First, install a `virtualenv`. It is an environment manager in Python. It will let you create virtual environments.
